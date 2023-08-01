@@ -7,6 +7,6 @@ import net.minecraft.block.Material;
 public class BlockRegistry extends IModRegistry<Block> {
     @Override
     void apply() {
-        register(new Block(FabricBlockSettings.of(Material.METAL).strength(3)), "titanium_ore");
+        register(new Block(FabricBlockSettings.of(Material.STONE).strength(4f)), "titanium_ore");
     }
 }
