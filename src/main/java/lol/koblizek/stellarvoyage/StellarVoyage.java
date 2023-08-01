@@ -11,6 +11,7 @@ public class StellarVoyage implements ModInitializer {
     /**
      * Main logger used for mod logging
      */
+    public static final String MOD_ID = "stellarvoyage";
     public static final Logger LOGGER = LoggerFactory.getLogger("Stellar Voyage");
     /**
      * Runs the mod initializer.
