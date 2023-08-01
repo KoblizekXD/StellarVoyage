@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "stellarvoyage",
+  "version": "${version}",
+  "name": "Stellar Voyage",
+  "description": "",
+  "authors": [
+    "KoblizekXD",
+    "slosa",
+    "Motulok"
+  ],
+  "contact": {
+    "repo": "https://github.com/KoblizekXD/StellarVoyage"
+  },
+  "license": "MIT",
+  "icon": "assets/stellarvoyage/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "lol.koblizek.stellarvoyage.client.StellarVoyageClient"
+    ],
+    "main": [
+      "lol.koblizek.stellarvoyage.StellarVoyage"
+    ]
+  },
+  "mixins": [
+    "stellarvoyage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
