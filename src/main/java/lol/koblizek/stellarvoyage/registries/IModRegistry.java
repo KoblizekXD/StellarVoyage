@@ -10,7 +10,7 @@ public abstract class IModRegistry<T> {
     private Registry<T> registry;
 
     abstract void apply();
-    private void register(T object, String name) {
+    void register(T object, String name) {
         Registry.register(registry, name, object);
     }
     public void create(Registry<T> registry) {
