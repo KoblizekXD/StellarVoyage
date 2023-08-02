@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "stellarvoyage:item/bauxite.png"
+    "layer0": "stellarvoyage:item/bauxite"
   }
 }
